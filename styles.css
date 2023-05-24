@@ -3,20 +3,23 @@
 	width:200px;
 	height:2px;
 	background-color:black;
+	position:absolute;
+	top:30%;
+	left:30%;
 /* 	animation:rotate 2s linear infinite;
 	animation-name: rotate;
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-iteration-count: infinite; */
 }
-.cont{
+/* .cont{
 	width:80vw;
 	height:80vh;
 	display:flex;
 	align-items:center;
 	justify-content:center;
 	background-color:yellow;
-}
+} */
 @keyframes rotate{
 	from{
 		transform:rotate(0deg);
